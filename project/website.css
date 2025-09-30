@@ -24,7 +24,16 @@ body{
 .link1:link{
     color: white;
     text-decoration: none;
-   
+}
+
+.link1:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.link1:hover{
+    color: red;
+    text-decoration: none;
 }
 
 .wekkly{
