@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+
+.shortinfo{
+    display: flex;
+}
+
+.topmenu{
+    width: 100%;
+    display: flex;
+    background: #081f5c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+
+    
+}
+
+.wekkly{
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    padding: 20px;
+    background: #7096d1;
+    border: 3px solid #081f5c;
+    border-radius: 20px;
+}
+
+.photoweek{
+    height: 40%;
+    border: 2px solid #081f5c;
+    border-radius: 10px;
+}
+
+.description{
+    margin-left: 30px;
+    border: 1px solid #081f5c;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: #334eac;
+    color: white;
+}
+
+.gearssb{
+    display: flex;
+    margin-left: 20px;
+}
+.gearssu{
+    display: flex;
+    margin-right: 20px;
+    justify-content: right;
+}
+
+.gearsb{
+    height: 60px;
+    margin-right: 20%;
+}
+
+.gearsu{
+    height: 60px;
+    margin-left: 20%;
+}
+
+
+.shortinfo{
+    display: flex;
+    margin: 60px 10px 0px 10px;
+    padding: 20px;
+    background: #7096d1;
+    border: 3px solid #081f5c;
+    border-radius: 20px;
+}
+
+.connorinfo{
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #081f5c;
+    padding: 20px;
+    background-color:#334eac;
+    border-radius: 10%;
+}
+
+.connor{
+    height: 360px;
+    border: 2px solid #081f5c;
+    border-radius: 10px;
+}
