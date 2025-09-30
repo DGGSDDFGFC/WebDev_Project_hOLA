@@ -105,3 +105,7 @@ body{
     border-radius: 10px;
 }
 
+.abouttitle{
+    background-image: url(backgroundabout.jpg);
+    color: white;
+}
