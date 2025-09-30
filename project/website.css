@@ -21,6 +21,11 @@ body{
 
     
 }
+.link1:link{
+    color: white;
+    text-decoration: none;
+   
+}
 
 .wekkly{
     margin: 0px 10px 0px 10px;
