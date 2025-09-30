@@ -32,7 +32,7 @@ body{
 }
 
 .link1:hover{
-    color: red;
+    color: rgb(122, 130, 224);
     text-decoration: none;
 }
 
@@ -80,7 +80,6 @@ body{
     margin-left: 20%;
 }
 
-
 .shortinfo{
     display: flex;
     margin: 60px 10px 0px 10px;
@@ -88,6 +87,7 @@ body{
     background: #7096d1;
     border: 3px solid #081f5c;
     border-radius: 20px;
+
 }
 
 .connorinfo{
@@ -106,6 +106,30 @@ body{
 }
 
 .abouttitle{
-    background-image: url(backgroundabout.jpg);
     color: white;
+    text-align: center;
+}
+
+.aboutinfo{
+    height: 360px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.rows{
+    text-align: center;
+}
+
+.shortinfo2{
+    margin: 60px 10px 0px 10px;
+    padding: 20px;
+    background: #7096d1;
+    border: 3px solid #081f5c;
+    border-radius: 20px;
+
+}
+
+.flex{
+    display: flex;
 }
