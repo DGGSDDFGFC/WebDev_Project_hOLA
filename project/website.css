@@ -133,3 +133,25 @@ body{
 .flex{
     display: flex;
 }
+
+.collectionlist{
+    margin-top: 60px;
+}
+
+.collectionrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collectioncar{
+    border: 2px solid #081f5c;
+    border-radius: 10px;
+    background: #7096d1;
+    color: white;
+    width: 30%;
+    height: 30%;
+}
+
+.collectionimage{
+    width: 100%;
+}
