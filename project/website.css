@@ -4,6 +4,7 @@ body{
 
 .shortinfo{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .topmenu{
@@ -11,7 +12,6 @@ body{
     display: flex;
     background: #081f5c;
     color: white;
-    display: flex;
     justify-content: space-evenly ;
     margin-right: 0px;
     margin-left: 0px;
@@ -46,7 +46,7 @@ body{
 }
 
 .photoweek{
-    height: 40%;
+    width: 50%;
     border: 2px solid #081f5c;
     border-radius: 10px;
 }
@@ -100,7 +100,7 @@ body{
 }
 
 .connor{
-    height: 360px;
+    width: 50%;
     border: 2px solid #081f5c;
     border-radius: 10px;
 }
