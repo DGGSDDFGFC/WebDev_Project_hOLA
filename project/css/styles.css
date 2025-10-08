@@ -163,6 +163,8 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
+    position: absolute;
+    bottom: 0;
     
 }
 
@@ -199,6 +201,10 @@ body{
 
 .contactpic{
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .contact-input{
@@ -214,4 +220,8 @@ body{
     border-radius: 8px;
     background: #7096d1;
 
+}
+
+.contact-form{
+    color: white;
 }
