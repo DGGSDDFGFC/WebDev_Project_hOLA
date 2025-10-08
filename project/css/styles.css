@@ -22,6 +22,10 @@ body{
 
     
 }
+.link1 {
+    transition: all 0.3s ease;
+
+}
 .link1:link{
     color: white;
     text-decoration: none;
@@ -34,10 +38,15 @@ body{
 
 .link1:hover{
     color: rgb(204, 19, 19);
-    text-decoration: none;
+    text-decoration: underline;
+    transform: scale(2)
+    
 }
 
 
+.link2 {
+    transition: all 0.3s ease;
+}
 
 .link2:link{
     color: rgb(30, 0, 138);
@@ -51,7 +60,8 @@ body{
 
 .link2:hover{
     color: rgb(202, 20, 19);
-    text-decoration: none;
+    text-decoration: underline;
+    
 }
 
 
@@ -195,10 +205,12 @@ body{
 }
 .logo{
     width: 75px;
+    
 }
 
 .contactpic{
     width: 100%;
+    
 }
 
 .contact-input{
@@ -214,4 +226,7 @@ body{
     border-radius: 8px;
     background: #7096d1;
 
+}
+.material-icons:hover{
+    transform: scale(2);
 }
