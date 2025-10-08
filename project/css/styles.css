@@ -190,5 +190,8 @@ body{
 }
 
 .collectionimage{
+    width: 100%;
+}
+.logo{
     width: 75px;
 }
