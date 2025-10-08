@@ -217,7 +217,7 @@ body{
     color:white;
     width: 150px;
     border-radius: 8px;
-    background: #7096d1;
+    background: #7096d1; 
 
 }
 
@@ -230,5 +230,12 @@ body{
 }
 
 .contact-form{
-    color: white;
+    color: #ff0000cd;
+}
+
+.contact-form1{
+    margin: 200px auto 50px auto;
+    background: transparent;
+    width: 27%;
+    text-align: center;
 }
