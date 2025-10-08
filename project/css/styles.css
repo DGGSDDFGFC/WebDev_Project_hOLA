@@ -33,7 +33,7 @@ body{
 }
 
 .link1:hover{
-    color: rgb(122, 130, 224);
+    color: rgb(204, 19, 19);
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ body{
 }
 
 .link2:hover{
-    color: rgb(122, 130, 224);
+    color: rgb(202, 20, 19);
     text-decoration: none;
 }
 
@@ -163,6 +163,7 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
+    
 }
 
 .bottom_photo{
@@ -194,4 +195,23 @@ body{
 }
 .logo{
     width: 75px;
+}
+
+.contactpic{
+    width: 100%;
+}
+
+.contact-input{
+    border: solid 2px #081f5c;
+    border-radius: 8px ;
+
+}
+
+.contact-button{
+    border: 2px solid #081f5c;
+    color:white;
+    width: 150px;
+    border-radius: 8px;
+    background: #7096d1;
+
 }
