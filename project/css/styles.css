@@ -211,14 +211,11 @@ body{
 
 .contactpic{
     width: 100%;
-<<<<<<< HEAD
     
-=======
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
->>>>>>> 538b107cd2c3e6a6e7544e7578672ea4bd215c93
 }
 
 .contact-input{
@@ -236,11 +233,9 @@ body{
     background: #7096d1; 
 
 }
-<<<<<<< HEAD
 .material-icons:hover{
     transform: scale(2);
 }
-=======
 
 .paragraphfont{
     font-size: 30px;
@@ -260,4 +255,3 @@ body{
     width: 27%;
     text-align: center;
 }
->>>>>>> 538b107cd2c3e6a6e7544e7578672ea4bd215c93
