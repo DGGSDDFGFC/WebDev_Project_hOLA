@@ -184,7 +184,7 @@ body{
 }
 
 .collectionlist{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .collectionrow{
@@ -257,4 +257,31 @@ body{
     border: solid 2px #7096d1;
     border-radius: 10px;
     text-align: center;
+}
+
+
+.search {
+    margin: 5% auto 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #ff0000;
+    width: 800px;
+    height: 50px;
+    display: flex;
+}
+
+form input{
+    flex: 1;
+    border-color: #7c83f1;
+}
+
+form button{
+    color: #1a1a1a;
+    padding: 10px 50px;
+    background-color: #7c83f1;
+    border: none;
 }
