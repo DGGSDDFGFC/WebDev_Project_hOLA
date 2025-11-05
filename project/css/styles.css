@@ -199,17 +199,21 @@ body{
     background: #7096d1;
     color: rgb(0, 0, 0);
     text-align: center;
-    width: 30%;
     height: 30%;
+    width: 30%;
+    
 }
 
 .collectionimage{
+    height: 18em;
     width: 100%;
 }
 .logo{
     width: 75px;
     
 }
+
+
 
 .contactpic{
     width: 100%;
