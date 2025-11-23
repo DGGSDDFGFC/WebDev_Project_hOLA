@@ -289,3 +289,6 @@ form button{
     background-color: #7c83f1;
     border: none;
 }
+.carName:hover {
+    color: white;
+}
