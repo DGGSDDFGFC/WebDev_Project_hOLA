@@ -2,12 +2,20 @@ body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-
 .shortinfo{
     display: flex;
     justify-content: space-evenly;
 }
-
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 60px 10px 0px 10px;
+    padding: 20px;
+    background: #7096d1;
+    border: 3px solid #081f5c;
+    border-radius: 20px;
+}
 .topmenu{
     width: 100%;
     display: flex;
@@ -20,8 +28,6 @@ body{
     margin-top: 0px;
     position: fixed;
     top: 0;
-
-    
 }
 .link1 {
     transition: all 0.3s ease;
@@ -291,4 +297,927 @@ form button{
 }
 .carName:hover {
     color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .shortinfo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    .topmenu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content: space-around ;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: fixed;
+        top: 0;
+    
+        
+    }
+    .link1 {
+        transition: all 0.3s ease;
+    
+    }
+    .link1:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:visited{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:hover{
+        color: rgb(204, 19, 19);
+        text-decoration: underline;
+        transform: scale(2)
+        
+    }
+    
+    
+    .link2 {
+        transition: all 0.3s ease;
+    }
+    
+    .link2:link{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:visited{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:hover{
+        color: rgb(202, 20, 19);
+        text-decoration: underline;
+        
+    }
+    
+    
+    
+    .wekkly{
+        margin: 0px 10px 0px 10px;
+        display: flex;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    
+    .photoweek{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .description{
+        margin-left: 30px;
+        border: 1px solid #081f5c;
+        padding: 20px;
+        border-radius: 10%;
+        background-color: #334eac;
+        color: white;
+    }
+    
+    .gearssb{
+        display: flex;
+        margin-left: 20px;
+    }
+    .gearssu{
+        display: flex;
+        margin-right: 20px;
+        justify-content: right;
+    }
+    
+    .gearsb{
+        height: 60px;
+        margin-right: 20%;
+    }
+    
+    .gearsu{
+        height: 60px;
+        margin-left: 20%;
+    }
+    
+    .shortinfo{
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    
+    }
+    
+    .connorinfo{
+        margin-right: 30px;
+        color: rgb(255, 255, 255);
+        border: 1px solid #081f5c;
+        padding: 20px;
+        background-color:#334eac;
+        border-radius: 10%;
+    }
+    
+    .connor{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .abouttitle{
+        color: white;
+        text-align: center;
+    }
+    
+    .aboutinfo{
+        height: 360px;
+        margin: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        overflow: scroll;
+    }
+    
+    .rows{
+        text-align: center;
+    }
+    
+    .shortinfo2{
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    
+    }
+    
+    .flex{
+        display: flex;
+    }
+    
+    .bottom_menu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content:space-evenly ;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        
+        
+    }
+    
+    .bottom_photo{
+        width: 20%;
+    }
+    
+    .collectionlist{
+        margin-top: 20px;
+    }
+    
+    .collectionrow{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .collectioncar{
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+        background: #7096d1;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        height: 30%;
+        width: 30%;
+        
+    }
+    
+    .collectionimage{
+        height: 18em;
+        width: 100%;
+    }
+    .logo{
+        width: 75px;
+        
+    }
+    
+    
+    
+    .contactpic{
+        width: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .contact-input{
+        border: solid 2px #081f5c;
+        border-radius: 8px ;
+    
+    }
+    
+    .contact-button{
+        border: 2px solid #081f5c;
+        color:rgb(0, 0, 0);
+        width: 150px;
+        border-radius: 8px;
+        background: #f2f2f2; 
+    
+    }
+    .toplink:hover{
+        transform: scale(1.5);
+    }
+    
+    .paragraphfont{
+        font-size: 30px;
+    }
+    
+    .headerfont{
+        font-size: 60px;
+    }
+    
+    .contact-form{
+        color: #ffffffcd;
+    }
+    
+    .contact-form1{
+        margin: 200px auto 50px auto;
+        background: rgb(0, 0, 0);
+        width: 27%;
+        border: solid 2px #7096d1;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    
+    .search {
+        margin: 5% auto 0% auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form{
+        background: #ff0000;
+        width: 800px;
+        height: 50px;
+        display: flex;
+    }
+    
+    form input{
+        flex: 1;
+        border-color: #7c83f1;
+    }
+    
+    form button{
+        color: #1a1a1a;
+        padding: 10px 50px;
+        background-color: #7c83f1;
+        border: none;
+    }
+    .carName:hover {
+        color: white;
+    }
+    
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .shortinfo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    .topmenu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content: space-around ;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: fixed;
+        top: 0;
+    
+        
+    }
+    .link1 {
+        transition: all 0.3s ease;
+    
+    }
+    .link1:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:visited{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:hover{
+        color: rgb(204, 19, 19);
+        text-decoration: underline;
+        transform: scale(2)
+        
+    }
+    
+    
+    .link2 {
+        transition: all 0.3s ease;
+    }
+    
+    .link2:link{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:visited{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:hover{
+        color: rgb(202, 20, 19);
+        text-decoration: underline;
+        
+    }
+    
+    
+    
+    .wekkly{
+        margin: 0px 10px 0px 10px;
+        display: flex;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    
+    .photoweek{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .description{
+        margin-left: 30px;
+        border: 1px solid #081f5c;
+        padding: 20px;
+        border-radius: 10%;
+        background-color: #334eac;
+        color: white;
+    }
+    
+    .gearssb{
+        display: flex;
+        margin-left: 20px;
+    }
+    .gearssu{
+        display: flex;
+        margin-right: 20px;
+        justify-content: right;
+    }
+    
+    .gearsb{
+        height: 60px;
+        margin-right: 20%;
+    }
+    
+    .gearsu{
+        height: 60px;
+        margin-left: 20%;
+    }
+    
+    .shortinfo{
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    
+    }
+    
+    .connorinfo{
+        margin-right: 30px;
+        color: rgb(255, 255, 255);
+        border: 1px solid #081f5c;
+        padding: 20px;
+        background-color:#334eac;
+        border-radius: 10%;
+    }
+    
+    .connor{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .abouttitle{
+        color: white;
+        text-align: center;
+    }
+    
+    .aboutinfo{
+        height: 360px;
+        margin: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        overflow: scroll;
+    }
+    
+    .rows{
+        text-align: center;
+    }
+    
+    .shortinfo2{
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    .flex{
+        display: flex;
+    }
+    .bottom_menu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content:space-evenly ;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px; 
+    }
+    .bottom_photo{
+        width: 20%;
+    }
+    
+    .collectionlist{
+        margin-top: 20px;
+    }
+    
+    .collectionrow{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .collectioncar{
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+        background: #7096d1;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        height: 30%;
+        width: 30%;     
+    }
+    .collectionimage{
+        height: 18em;
+        width: 100%;
+    }
+    .logo{
+        width: 75px;
+        
+    }
+    .contactpic{
+        width: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .contact-input{
+        border: solid 2px #081f5c;
+        border-radius: 8px ;
+    
+    }
+    
+    .contact-button{
+        border: 2px solid #081f5c;
+        color:rgb(0, 0, 0);
+        width: 150px;
+        border-radius: 8px;
+        background: #f2f2f2; 
+    
+    }
+    .toplink:hover{
+        transform: scale(1.5);
+    }
+    
+    .paragraphfont{
+        font-size: 30px;
+    }
+    
+    .headerfont{
+        font-size: 60px;
+    }
+    
+    .contact-form{
+        color: #ffffffcd;
+    }
+    
+    .contact-form1{
+        margin: 200px auto 50px auto;
+        background: rgb(0, 0, 0);
+        width: 27%;
+        border: solid 2px #7096d1;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    
+    .search {
+        margin: 5% auto 0% auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form{
+        background: #ff0000;
+        width: 800px;
+        height: 50px;
+        display: flex;
+    }
+    
+    form input{
+        flex: 1;
+        border-color: #7c83f1;
+    }
+    
+    form button{
+        color: #1a1a1a;
+        padding: 10px 50px;
+        background-color: #7c83f1;
+        border: none;
+    }
+    .carName:hover {
+        color: white;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .shortinfo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    .topmenu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content: space-around ;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: fixed;
+        top: 0;
+    
+        
+    }
+    .link1 {
+        transition: all 0.3s ease;
+    
+    }
+    .link1:link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:visited{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .link1:hover{
+        color: rgb(204, 19, 19);
+        text-decoration: underline;
+        transform: scale(2)
+        
+    }
+    
+    
+    .link2 {
+        transition: all 0.3s ease;
+    }
+    
+    .link2:link{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:visited{
+        color: rgb(30, 0, 138);
+        text-decoration: none;
+    }
+    
+    .link2:hover{
+        color: rgb(202, 20, 19);
+        text-decoration: underline;
+        
+    }
+    
+    
+    
+    .wekkly{
+        margin: 0px 10px 0px 10px;
+        display: flex;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    }
+    
+    .photoweek{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .description{
+        margin-left: 30px;
+        border: 1px solid #081f5c;
+        padding: 20px;
+        border-radius: 10%;
+        background-color: #334eac;
+        color: white;
+    }
+    
+    .gearssb{
+        display: flex;
+        margin-left: 20px;
+    }
+    .gearssu{
+        display: flex;
+        margin-right: 20px;
+        justify-content: right;
+    }
+    
+    .gearsb{
+        height: 60px;
+        margin-right: 20%;
+    }
+    
+    .gearsu{
+        height: 60px;
+        margin-left: 20%;
+    }
+    
+    .shortinfo{
+        display: flex;
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    
+    }
+    
+    .connorinfo{
+        margin-right: 30px;
+        color: rgb(255, 255, 255);
+        border: 1px solid #081f5c;
+        padding: 20px;
+        background-color:#334eac;
+        border-radius: 10%;
+    }
+    
+    .connor{
+        width: 50%;
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+    }
+    
+    .abouttitle{
+        color: white;
+        text-align: center;
+    }
+    
+    .aboutinfo{
+        height: 360px;
+        margin: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        overflow: scroll;
+    }
+    
+    .rows{
+        text-align: center;
+    }
+    
+    .shortinfo2{
+        margin: 60px 10px 0px 10px;
+        padding: 20px;
+        background: #7096d1;
+        border: 3px solid #081f5c;
+        border-radius: 20px;
+    
+    }
+    
+    .flex{
+        display: flex;
+    }
+    
+    .bottom_menu{
+        width: 100%;
+        display: flex;
+        background: #081f5c;
+        color: white;
+        justify-content:space-evenly ;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        
+        
+    }
+    
+    .bottom_photo{
+        width: 20%;
+    }
+    
+    .collectionlist{
+        margin-top: 20px;
+    }
+    
+    .collectionrow{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .collectioncar{
+        border: 2px solid #081f5c;
+        border-radius: 10px;
+        background: #7096d1;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        height: 30%;
+        width: 30%;
+        
+    }
+    
+    .collectionimage{
+        height: 18em;
+        width: 100%;
+    }
+    .logo{
+        width: 75px;
+        
+    }
+    
+    
+    
+    .contactpic{
+        width: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .contact-input{
+        border: solid 2px #081f5c;
+        border-radius: 8px ;
+    
+    }
+    
+    .contact-button{
+        border: 2px solid #081f5c;
+        color:rgb(0, 0, 0);
+        width: 150px;
+        border-radius: 8px;
+        background: #f2f2f2; 
+    
+    }
+    .toplink:hover{
+        transform: scale(1.5);
+    }
+    
+    .paragraphfont{
+        font-size: 30px;
+    }
+    
+    .headerfont{
+        font-size: 60px;
+    }
+    
+    .contact-form{
+        color: #ffffffcd;
+    }
+    
+    .contact-form1{
+        margin: 200px auto 50px auto;
+        background: rgb(0, 0, 0);
+        width: 27%;
+        border: solid 2px #7096d1;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    
+    .search {
+        margin: 5% auto 0% auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form{
+        background: #ff0000;
+        width: 800px;
+        height: 50px;
+        display: flex;
+    }
+    
+    form input{
+        flex: 1;
+        border-color: #7c83f1;
+    }
+    
+    form button{
+        color: #1a1a1a;
+        padding: 10px 50px;
+        background-color: #7c83f1;
+        border: none;
+    }
+    .carName:hover {
+        color: white;
+    }
+    
 }
