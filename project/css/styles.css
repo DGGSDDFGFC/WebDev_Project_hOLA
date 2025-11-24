@@ -198,7 +198,6 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-
 .collectioncar{
     border: 2px solid #081f5c;
     border-radius: 10px;
@@ -209,7 +208,6 @@ body{
     width: 30%;
     
 }
-
 .collectionimage{
     height: 18em;
     width: 100%;
@@ -218,9 +216,6 @@ body{
     width: 75px;
     
 }
-
-
-
 .contactpic{
     width: 100%;
     
@@ -229,13 +224,11 @@ body{
     left: 0;
     z-index: -1;
 }
-
 .contact-input{
     border: solid 2px #081f5c;
     border-radius: 8px ;
 
 }
-
 .contact-button{
     border: 2px solid #081f5c;
     color:rgb(0, 0, 0);
@@ -299,925 +292,245 @@ form button{
     color: white;
 }
 
+/* Mobile Phones (600px and below) */
 @media (max-width: 600px) {
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    body{
-        margin: 0px;
-        font-family: 'Open Sans', sans-serif;
+    body {
+        font-size: 14px;
+        line-height: 1.4;
     }
     
-    .shortinfo{
-        display: flex;
-        justify-content: space-evenly;
+    .container, .shortinfo, .wekkly, .shortinfo2 {
+        flex-direction: column;
+        margin: 20px 5px 0px 5px;
+        padding: 10px;
+        gap: 10px;
     }
-    .container{
-        display: flex;
-        justify-content: space-evenly;
-        display: flex;
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
+    
+    .topmenu {
+        position: relative;
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px 0;
     }
-    .topmenu{
-        width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content: space-around ;
+    
+    .bottom_menu {
+        flex-direction: column;
         align-items: center;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        position: fixed;
-        top: 0;
-    
-        
-    }
-    .link1 {
-        transition: all 0.3s ease;
-    
-    }
-    .link1:link{
-        color: white;
-        text-decoration: none;
+        gap: 10px;
+        padding: 10px 0;
     }
     
-    .link1:visited{
-        color: white;
-        text-decoration: none;
+    .description, .connorinfo {
+        margin: 10px 0;
+        padding: 15px;
     }
     
-    .link1:hover{
-        color: rgb(204, 19, 19);
-        text-decoration: underline;
-        transform: scale(2)
-        
-    }
-    
-    
-    .link2 {
-        transition: all 0.3s ease;
-    }
-    
-    .link2:link{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:visited{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:hover{
-        color: rgb(202, 20, 19);
-        text-decoration: underline;
-        
-    }
-    
-    
-    
-    .wekkly{
-        margin: 0px 10px 0px 10px;
-        display: flex;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    }
-    
-    .photoweek{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .description{
-        margin-left: 30px;
-        border: 1px solid #081f5c;
-        padding: 20px;
-        border-radius: 10%;
-        background-color: #334eac;
-        color: white;
-    }
-    
-    .gearssb{
-        display: flex;
-        margin-left: 20px;
-    }
-    .gearssu{
-        display: flex;
-        margin-right: 20px;
-        justify-content: right;
-    }
-    
-    .gearsb{
-        height: 60px;
-        margin-right: 20%;
-    }
-    
-    .gearsu{
-        height: 60px;
-        margin-left: 20%;
-    }
-    
-    .shortinfo{
-        display: flex;
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    
-    }
-    
-    .connorinfo{
-        margin-right: 30px;
-        color: rgb(255, 255, 255);
-        border: 1px solid #081f5c;
-        padding: 20px;
-        background-color:#334eac;
-        border-radius: 10%;
-    }
-    
-    .connor{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .abouttitle{
-        color: white;
-        text-align: center;
-    }
-    
-    .aboutinfo{
-        height: 360px;
-        margin: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: x-large;
-        overflow: scroll;
-    }
-    
-    .rows{
-        text-align: center;
-    }
-    
-    .shortinfo2{
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    
-    }
-    
-    .flex{
-        display: flex;
-    }
-    
-    .bottom_menu{
+    .photoweek, .connor {
         width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content:space-evenly ;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        
-        
+        margin-bottom: 15px;
     }
     
-    .bottom_photo{
-        width: 20%;
-    }
-    
-    .collectionlist{
-        margin-top: 20px;
-    }
-    
-    .collectionrow{
-        margin-bottom: 30px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .collectioncar{
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-        background: #7096d1;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        height: 30%;
-        width: 30%;
-        
-    }
-    
-    .collectionimage{
-        height: 18em;
-        width: 100%;
-    }
-    .logo{
-        width: 75px;
-        
-    }
-    
-    
-    
-    .contactpic{
-        width: 100%;
-        
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    
-    .contact-input{
-        border: solid 2px #081f5c;
-        border-radius: 8px ;
-    
-    }
-    
-    .contact-button{
-        border: 2px solid #081f5c;
-        color:rgb(0, 0, 0);
-        width: 150px;
-        border-radius: 8px;
-        background: #f2f2f2; 
-    
-    }
-    .toplink:hover{
-        transform: scale(1.5);
-    }
-    
-    .paragraphfont{
-        font-size: 30px;
-    }
-    
-    .headerfont{
-        font-size: 60px;
-    }
-    
-    .contact-form{
-        color: #ffffffcd;
-    }
-    
-    .contact-form1{
-        margin: 200px auto 50px auto;
-        background: rgb(0, 0, 0);
-        width: 27%;
-        border: solid 2px #7096d1;
-        border-radius: 10px;
-        text-align: center;
-    }
-    
-    
-    .search {
-        margin: 5% auto 0% auto;
-        display: flex;
+    .collectionrow {
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        gap: 15px;
     }
     
-    form{
-        background: #ff0000;
-        width: 800px;
-        height: 50px;
-        display: flex;
+    .collectioncar {
+        width: 95%;
+        margin-bottom: 15px;
     }
     
-    form input{
-        flex: 1;
-        border-color: #7c83f1;
+    .collectionimage {
+        height: 12em;
     }
     
-    form button{
-        color: #1a1a1a;
-        padding: 10px 50px;
-        background-color: #7c83f1;
-        border: none;
-    }
-    .carName:hover {
-        color: white;
+    .headerfont {
+        font-size: 32px;
     }
     
+    .paragraphfont {
+        font-size: 18px;
+    }
+    
+    .contact-form1 {
+        width: 90%;
+        margin: 100px auto 30px auto;
+        padding: 15px;
+    }
+    
+    form {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    form input, form button {
+        width: 100%;
+        min-height: 44px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    .gearssb, .gearssu {
+        margin: 0 10px;
+    }
+    
+    .gearsb, .gearsu {
+        margin: 0 10%;
+        height: 40px;
+    }
+    
+    .aboutinfo {
+        height: auto;
+        max-height: 300px;
+        font-size: medium;
+        margin: 10px;
+    }
+    
+    .logo {
+        width: 60px;
+    }
+    
+    .bottom_photo {
+        width: 50%;
+    }
+    
+    .contact-button {
+        width: 100%;
+        max-width: 200px;
+        padding: 12px;
+    }
+    
+    .contact-input {
+        width: 100%;
+        max-width: 280px;
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    /* Improve link tap targets */
+    .link1, .link2 {
+        padding: 10px 15px;
+        display: inline-block;
+    }
 }
 
-
-@media (min-width: 600px) and (max-width: 1024px) {
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    body{
-        margin: 0px;
-        font-family: 'Open Sans', sans-serif;
+/* Tablets (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container, .shortinfo, .wekkly {
+        flex-direction: column;
+        margin: 50px 15px 0px 15px;
+        padding: 20px;
+        gap: 20px;
     }
     
-    .shortinfo{
-        display: flex;
-        justify-content: space-evenly;
+    .topmenu {
+        flex-wrap: wrap;
+        padding: 15px 0;
+        gap: 25px;
     }
-    .container{
-        display: flex;
-        justify-content: space-evenly;
-        display: flex;
-        margin: 60px 10px 0px 10px;
+    
+    .bottom_menu {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    
+    .description, .connorinfo {
+        margin: 25px 0;
         padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
     }
-    .topmenu{
+    
+    .photoweek, .connor {
         width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content: space-around ;
-        align-items: center;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        position: fixed;
-        top: 0;
-    
-        
-    }
-    .link1 {
-        transition: all 0.3s ease;
-    
-    }
-    .link1:link{
-        color: white;
-        text-decoration: none;
+        margin-bottom: 25px;
     }
     
-    .link1:visited{
-        color: white;
-        text-decoration: none;
+    .headerfont {
+        font-size: 52px;
     }
     
-    .link1:hover{
-        color: rgb(204, 19, 19);
-        text-decoration: underline;
-        transform: scale(2)
-        
+    .paragraphfont {
+        font-size: 26px;
     }
     
-    
-    .link2 {
-        transition: all 0.3s ease;
-    }
-    
-    .link2:link{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:visited{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:hover{
-        color: rgb(202, 20, 19);
-        text-decoration: underline;
-        
-    }
-    
-    
-    
-    .wekkly{
-        margin: 0px 10px 0px 10px;
-        display: flex;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    }
-    
-    .photoweek{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .description{
-        margin-left: 30px;
-        border: 1px solid #081f5c;
-        padding: 20px;
-        border-radius: 10%;
-        background-color: #334eac;
-        color: white;
-    }
-    
-    .gearssb{
-        display: flex;
-        margin-left: 20px;
-    }
-    .gearssu{
-        display: flex;
-        margin-right: 20px;
-        justify-content: right;
-    }
-    
-    .gearsb{
-        height: 60px;
-        margin-right: 20%;
-    }
-    
-    .gearsu{
-        height: 60px;
-        margin-left: 20%;
-    }
-    
-    .shortinfo{
-        display: flex;
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    
-    }
-    
-    .connorinfo{
-        margin-right: 30px;
-        color: rgb(255, 255, 255);
-        border: 1px solid #081f5c;
-        padding: 20px;
-        background-color:#334eac;
-        border-radius: 10%;
-    }
-    
-    .connor{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .abouttitle{
-        color: white;
-        text-align: center;
-    }
-    
-    .aboutinfo{
-        height: 360px;
-        margin: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: x-large;
-        overflow: scroll;
-    }
-    
-    .rows{
-        text-align: center;
-    }
-    
-    .shortinfo2{
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    }
-    .flex{
-        display: flex;
-    }
-    .bottom_menu{
-        width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content:space-evenly ;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px; 
-    }
-    .bottom_photo{
-        width: 20%;
-    }
-    
-    .collectionlist{
-        margin-top: 20px;
-    }
-    
-    .collectionrow{
-        margin-bottom: 30px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .collectioncar{
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-        background: #7096d1;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        height: 30%;
-        width: 30%;     
-    }
-    .collectionimage{
-        height: 18em;
-        width: 100%;
-    }
-    .logo{
-        width: 75px;
-        
-    }
-    .contactpic{
-        width: 100%;
-        
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    
-    .contact-input{
-        border: solid 2px #081f5c;
-        border-radius: 8px ;
-    
-    }
-    
-    .contact-button{
-        border: 2px solid #081f5c;
-        color:rgb(0, 0, 0);
-        width: 150px;
-        border-radius: 8px;
-        background: #f2f2f2; 
-    
-    }
-    .toplink:hover{
-        transform: scale(1.5);
-    }
-    
-    .paragraphfont{
-        font-size: 30px;
-    }
-    
-    .headerfont{
-        font-size: 60px;
-    }
-    
-    .contact-form{
-        color: #ffffffcd;
-    }
-    
-    .contact-form1{
-        margin: 200px auto 50px auto;
-        background: rgb(0, 0, 0);
-        width: 27%;
-        border: solid 2px #7096d1;
-        border-radius: 10px;
-        text-align: center;
-    }
-    
-    
-    .search {
-        margin: 5% auto 0% auto;
-        display: flex;
-        align-items: center;
+    .collectionrow {
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 25px;
     }
     
-    form{
-        background: #ff0000;
-        width: 800px;
-        height: 50px;
-        display: flex;
+    .collectioncar {
+        width: 45%;
+        margin-bottom: 25px;
     }
     
-    form input{
-        flex: 1;
-        border-color: #7c83f1;
+    .collectionimage {
+        height: 20em;
     }
     
-    form button{
-        color: #1a1a1a;
-        padding: 10px 50px;
-        background-color: #7c83f1;
-        border: none;
-    }
-    .carName:hover {
-        color: white;
+    .contact-form1 {
+        width: 70%;
+        margin: 150px auto 50px auto;
+        padding: 25px;
     }
     
-}
-
-@media (min-width: 1024px) {
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    body{
-        margin: 0px;
-        font-family: 'Open Sans', sans-serif;
+    form {
+        width: 90%;
+        max-width: 700px;
+        height: 55px;
     }
     
-    .shortinfo{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .container{
-        display: flex;
-        justify-content: space-evenly;
-        display: flex;
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    }
-    .topmenu{
-        width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content: space-around ;
-        align-items: center;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        position: fixed;
-        top: 0;
-    
-        
-    }
-    .link1 {
-        transition: all 0.3s ease;
-    
-    }
-    .link1:link{
-        color: white;
-        text-decoration: none;
+    form input, form button {
+        font-size: 18px;
+        padding: 15px;
     }
     
-    .link1:visited{
-        color: white;
-        text-decoration: none;
+    .gearssb, .gearssu {
+        margin: 0 20px;
     }
     
-    .link1:hover{
-        color: rgb(204, 19, 19);
-        text-decoration: underline;
-        transform: scale(2)
-        
+    .gearsb, .gearsu {
+        margin: 0 20%;
+        height: 55px;
     }
     
-    
-    .link2 {
-        transition: all 0.3s ease;
-    }
-    
-    .link2:link{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:visited{
-        color: rgb(30, 0, 138);
-        text-decoration: none;
-    }
-    
-    .link2:hover{
-        color: rgb(202, 20, 19);
-        text-decoration: underline;
-        
-    }
-    
-    
-    
-    .wekkly{
-        margin: 0px 10px 0px 10px;
-        display: flex;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    }
-    
-    .photoweek{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .description{
-        margin-left: 30px;
-        border: 1px solid #081f5c;
-        padding: 20px;
-        border-radius: 10%;
-        background-color: #334eac;
-        color: white;
-    }
-    
-    .gearssb{
-        display: flex;
-        margin-left: 20px;
-    }
-    .gearssu{
-        display: flex;
-        margin-right: 20px;
-        justify-content: right;
-    }
-    
-    .gearsb{
-        height: 60px;
-        margin-right: 20%;
-    }
-    
-    .gearsu{
-        height: 60px;
-        margin-left: 20%;
-    }
-    
-    .shortinfo{
-        display: flex;
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    
-    }
-    
-    .connorinfo{
-        margin-right: 30px;
-        color: rgb(255, 255, 255);
-        border: 1px solid #081f5c;
-        padding: 20px;
-        background-color:#334eac;
-        border-radius: 10%;
-    }
-    
-    .connor{
-        width: 50%;
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-    }
-    
-    .abouttitle{
-        color: white;
-        text-align: center;
-    }
-    
-    .aboutinfo{
-        height: 360px;
-        margin: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .aboutinfo {
+        height: auto;
+        max-height: 450px;
         font-size: x-large;
-        overflow: scroll;
+        margin: 20px;
     }
     
-    .rows{
-        text-align: center;
+    /* Improve navigation for tablet */
+    .link1, .link2 {
+        padding: 12px 18px;
+        font-size: 20px;
     }
     
-    .shortinfo2{
-        margin: 60px 10px 0px 10px;
-        padding: 20px;
-        background: #7096d1;
-        border: 3px solid #081f5c;
-        border-radius: 20px;
-    
+    /* Adjust search form for tablet */
+    .search {
+        margin: 6% auto 3% auto;
     }
     
-    .flex{
-        display: flex;
-    }
-    
-    .bottom_menu{
-        width: 100%;
-        display: flex;
-        background: #081f5c;
-        color: white;
-        justify-content:space-evenly ;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        
-        
-    }
-    
-    .bottom_photo{
-        width: 20%;
-    }
-    
-    .collectionlist{
-        margin-top: 20px;
-    }
-    
-    .collectionrow{
-        margin-bottom: 30px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .collectioncar{
-        border: 2px solid #081f5c;
-        border-radius: 10px;
-        background: #7096d1;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        height: 30%;
+    /* Make bottom menu items more balanced */
+    .bottom_photo {
         width: 30%;
-        
     }
     
-    .collectionimage{
-        height: 18em;
-        width: 100%;
-    }
-    .logo{
-        width: 75px;
-        
+    /* Adjust contact elements */
+    .contact-button {
+        width: 200px;
+        padding: 15px;
+        font-size: 20px;
     }
     
-    
-    
-    .contactpic{
-        width: 100%;
-        
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
+    .contact-input {
+        padding: 15px;
+        font-size: 18px;
     }
     
-    .contact-input{
-        border: solid 2px #081f5c;
-        border-radius: 8px ;
-    
+    .logo {
+        width: 80px;
     }
-    
-    .contact-button{
-        border: 2px solid #081f5c;
-        color:rgb(0, 0, 0);
-        width: 150px;
-        border-radius: 8px;
-        background: #f2f2f2; 
-    
-    }
-    .toplink:hover{
-        transform: scale(1.5);
-    }
-    
-    .paragraphfont{
-        font-size: 30px;
-    }
-    
-    .headerfont{
-        font-size: 60px;
-    }
-    
-    .contact-form{
-        color: #ffffffcd;
-    }
-    
-    .contact-form1{
-        margin: 200px auto 50px auto;
-        background: rgb(0, 0, 0);
-        width: 27%;
-        border: solid 2px #7096d1;
-        border-radius: 10px;
-        text-align: center;
-    }
-    
-    
-    .search {
-        margin: 5% auto 0% auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    form{
-        background: #ff0000;
-        width: 800px;
-        height: 50px;
-        display: flex;
-    }
-    
-    form input{
-        flex: 1;
-        border-color: #7c83f1;
-    }
-    
-    form button{
-        color: #1a1a1a;
-        padding: 10px 50px;
-        background-color: #7c83f1;
-        border: none;
-    }
-    .carName:hover {
-        color: white;
-    }
-    
 }
