@@ -254,9 +254,9 @@ body{
 }
 
 .contact-form1{
-    margin: 200px auto 50px auto;
+    margin: 200px auto 20px auto;
     background: rgb(0, 0, 0);
-    width: 27%;
+    width: 30%;
     border: solid 2px #7096d1;
     border-radius: 10px;
     text-align: center;
@@ -277,12 +277,7 @@ form button:hover
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-form{
-    background: #ff0000;
-    width: 800px;
-    height: 50px;
-    display: flex;
-}
+
 
 form input{
     flex: 1;
